@@ -39,7 +39,7 @@ can be done on the profile page.
 
 to run in development mode
 ```bash
-lein cljsbuild auto dev
+lein cljsbuild auto dev // use lein-cljsbuild plugin, https://github.com/emezeske/lein-cljsbuild
 lein ring server
 ```
 
