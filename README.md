@@ -35,7 +35,7 @@ the db connection properties and create the necessary tables for you. Then you w
 setup wizard that will allow you to configure the administrator and the blog title. Further configuration
 can be done on the profile page.
 
-### Building and deploying using Leiningen
+## Building and deploying using Leiningen
 
 to run in development mode
 ```bash
@@ -60,6 +60,13 @@ java -jar target/yuggoth-1.0-standalone.jar
 
 To specify a different port you can either pass it as an argument or put it in the `$PORT` environment variable
 
+## Todos
+
+* add and management new user with administrator.
+* support apache cassandra
+* support chinese localization
+* seed database
+* ...
 
 ## License
 
